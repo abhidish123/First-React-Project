@@ -1,0 +1,50 @@
+.App {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  font-family: sans-serif;
+}
+
+.App-left {
+  display: grid;
+  grid-template-rows: 1fr max-content;
+}
+
+.UserList {
+  height: 100%;
+  margin: auto;
+}
+
+.User {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.User > span {
+  flex: 0 0 auto;
+}
+
+.User-avatar {
+  border-radius: 100px;
+  width: 40px;
+}
+
+.User-username {
+  margin-left: 10px;
+}
+
+.UserProfile-avatar {
+  border-radius: 100px;
+  width: 80px;
+}
+
+.UserProfile-username {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.UserProfile-fullName {
+  margin-top: 20px;
+}
